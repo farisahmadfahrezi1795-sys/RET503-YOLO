@@ -56,3 +56,6 @@ Hasil test ini digunakan untuk mengevaluasi model terpilih pada data test yang t
 
 ## Kesimpulan
 Berdasarkan nilai mAP50-95 pada validation, E3 merupakan eksperimen terbaik dengan nilai 0.302. Penggunaan bobot pretrained dan perubahan ukuran gambar menjadi 640 memberikan hasil lebih baik daripada konfigurasi E1 dan E2 pada eksperimen ini.
+
+## Program Python
+Semua script untuk pengambilan dataset, pemeriksaan anotasi, konversi format, pembagian dataset, dan pelatihan model berada di folder `scripts/`.
