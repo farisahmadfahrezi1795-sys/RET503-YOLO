@@ -1,0 +1,10 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+coco_unduhan/
+dataset_yolo_mobil_motor_backpack/
+dataset_v1_mobil_motor_backpack/
+hasil_balik_mobil_motor_backpack/
+runs/
+*.pt
+*.pth

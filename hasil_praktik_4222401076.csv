@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.4097,0.2036,0.4147,0.4136,61.03,33.2,416,C:\Users\Faris\OneDrive\Dokumen\Kuliah\Semester 5\RET503 Computer Vision dan Deep Learning\Tugas\YOLO\YOLO\YOLO\hasil_praktik\E1_pretrained\weights\best.pt
+E2_scratch,-,False,0.0042,0.0013,0.6853,0.0032,66.65,32.51,416,C:\Users\Faris\OneDrive\Dokumen\Kuliah\Semester 5\RET503 Computer Vision dan Deep Learning\Tugas\YOLO\YOLO\YOLO\hasil_praktik\E2_scratch\weights\best.pt
+E3_tuning,imgsz=640,True,0.4893,0.3017,0.7071,0.4381,127.43,76.04,640,C:\Users\Faris\OneDrive\Dokumen\Kuliah\Semester 5\RET503 Computer Vision dan Deep Learning\Tugas\YOLO\YOLO\YOLO\hasil_praktik\E3_tuning\weights\best.pt

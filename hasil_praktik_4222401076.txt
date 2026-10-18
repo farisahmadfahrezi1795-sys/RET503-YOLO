@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222401076 / Faris Ahmad Fahrezi
+  Waktu         : 18-10-2026 16:32:59
+  Komputer/user : DESKTOP-B4F3CU4 / Faris
+  Dataset       : dataset_v1_mobil_motor_backpack  (sidik jari label: 3F3EFE531594)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 8
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.410     0.204  0.415  0.414   61.0    33.2
+  E2_scratch     -                0.004     0.001  0.685  0.003   66.7    32.5
+  E3_tuning      imgsz=640        0.489     0.302  0.707  0.438  127.4    76.0
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.663 | mAP50-95 0.353
+==============================================================================
