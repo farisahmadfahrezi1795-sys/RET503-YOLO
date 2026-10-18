@@ -1,4 +1,4 @@
-ï»¿# Praktik Terpadu RET503 â€” YOLO
+# Praktik Terpadu RET503 — YOLO
 
 ## Identitas
 - NIM: 4222401076
@@ -30,9 +30,9 @@ Dataset awal terdiri dari 220 gambar, termasuk 20 gambar latar belakang tanpa ob
 
 | Eksperimen | Pengaturan | mAP50 | mAP50-95 | Precision | Recall |
 |---|---|---:|---:|---:|---:|
-| E1 â€” Pretrained | Bobot pretrained | 0.410 | 0.204 | 0.415 | 0.414 |
-| E2 â€” Scratch | Training dari awal | 0.004 | 0.001 | 0.685 | 0.003 |
-| E3 â€” Tuning | imgsz=640 | 0.489 | 0.302 | 0.707 | 0.438 |
+| E1 — Pretrained | Bobot pretrained | 0.410 | 0.204 | 0.415 | 0.414 |
+| E2 — Scratch | Training dari awal | 0.004 | 0.001 | 0.685 | 0.003 |
+| E3 — Tuning | imgsz=640 | 0.489 | 0.302 | 0.707 | 0.438 |
 
 ## Analisis
 E1 menggunakan bobot pretrained dan memperoleh mAP50 sebesar 0.410 serta mAP50-95 sebesar 0.204.
@@ -49,8 +49,8 @@ Model terpilih, E3, memperoleh:
 Hasil test ini digunakan untuk mengevaluasi model terpilih pada data test yang terpisah dari data training dan validation.
 
 ## Berkas Hasil
-- `hasil_praktik_4222401076.txt`: laporan hasil eksperimen.
-- `hasil_praktik_4222401076.csv`: hasil eksperimen dalam format CSV.
+- `hasil_praktik/hasil_praktik_4222401076.txt`: laporan hasil eksperimen.
+- `hasil_praktik/hasil_praktik_4222401076.csv`: hasil eksperimen dalam format CSV.
 - `hasil_praktik/`: folder hasil training dan bobot model.
 - `dataset_v1_mobil_motor_backpack/`: dataset yang telah dibagi menjadi train, validation, dan test.
 
@@ -59,3 +59,4 @@ Berdasarkan nilai mAP50-95 pada validation, E3 merupakan eksperimen terbaik deng
 
 ## Program Python
 Semua script untuk pengambilan dataset, pemeriksaan anotasi, konversi format, pembagian dataset, dan pelatihan model berada di folder `scripts/`.
+
